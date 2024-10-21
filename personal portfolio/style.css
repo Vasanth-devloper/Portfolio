@@ -1822,6 +1822,7 @@ nav li:first-child {
         align-items: center;
         width: 100%;
         height: 70vh;
+        margin-top:20px;
     }
 
     .aboutcontainer p {
@@ -1864,6 +1865,7 @@ nav li:first-child {
         height: 60px;
         align-items: center;
         font-size: 15px;
+         margin-top: 30px;
     }
 
     .Front-end {
