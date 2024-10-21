@@ -1581,7 +1581,7 @@ nav li:first-child {
 }
 
 /*--------- small-mobile-screen-------*/
-@media screen and (min-width : 1px) and (max-width : 424px) {
+@media screen and (max-width : 424px) {
 
 
 
@@ -1680,8 +1680,11 @@ nav li:first-child {
         margin-top: 10px;
         margin-bottom: 0px;
         align-items: center;
-        font-size: 18px;
+        font-size: 14px;
         height: 80PX;
+    }
+    .about-head  h2 span{
+        font-size:10.5px ;
     }
 
     .mobile-version {
@@ -1818,7 +1821,7 @@ nav li:first-child {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100vh;
+        height: 70vh;
     }
 
     .aboutcontainer p {
@@ -1827,7 +1830,7 @@ nav li:first-child {
         align-items: center;
         height: fit-content;
         min-width: fit-content;
-        margin: 0 15px;
+        margin:  12px;
         font-size: 10px;
         line-height: 18px;
     }
@@ -1851,7 +1854,7 @@ nav li:first-child {
     }
 
     .skillcontainer {
-        height: 50vh;
+        height: 90vh;
     }
 
 
@@ -1864,7 +1867,11 @@ nav li:first-child {
     }
 
     .Front-end {
-        height: 120px;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
     }
 
     .frontEnd-heading h2 {
@@ -1876,13 +1883,10 @@ nav li:first-child {
     }
 
     .Front-end img {
+        flex-basis: 24%;
+        height: 60px;
+        width: 60px;
 
-        height: 40px;
-        width: 40px;
-        display: flex;
-        align-items: center;
-        margin: 0;
-        justify-content: center;
     }
 
     .Front-end p {
@@ -1922,7 +1926,6 @@ nav li:first-child {
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 40PX;
         height: 100px;
         font-size: 5px;
 
@@ -1933,7 +1936,6 @@ nav li:first-child {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        width: 40PX;
         height: 100px;
         font-size: 5px;
 
@@ -1949,17 +1951,20 @@ nav li:first-child {
     }
 
     .back-end {
-        height: 120px;
+        height: fit-content;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        flex-wrap: wrap;
     }
 
+   
     .back-end img {
-        height: 40px;
-        width: 40px;
-    }
+        flex-basis: 30%;
+        height: 60px;
+        width: 60px;
 
+    }
     .back-end p {
         font-size: 10px;
         margin-top: 5px;
@@ -2026,30 +2031,42 @@ nav li:first-child {
         font-size: 12px;
         margin: 0;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; 
         justify-content: center;
 
     }
 
     .contactheading {
-        font-size: 18px;
+        font-size: 12px;
+        height: 100px;
     }
 
     .left-h2 {
-        font-size: 10px;
+  
         margin: 0;
         height: 30px;
+        width: 100%;
+      
+    }
+    .left-h2 h2{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .gmail {
         font-size: 12px;
         display: flex;
         height: 60px;
-        width: 100%;
+        width: fit-content;
         justify-content: center;
         align-items: center;
         margin-bottom: 0;
+    }
+    .gmail i{
+        margin: 0;
     }
 
     .no {
@@ -2075,19 +2092,19 @@ nav li:first-child {
     }
 
     .right-contact form input {
-        width: 200px;
+        width: fit-content;
         padding: 15px;
         margin-left: 0;
         border-radius: 10px;
     }
 
     .right-contact textarea {
-        width: 200px;
+        width: fit-content;
         margin-top: 20px;
         margin-left: 0;
         border-radius: 10px;
         padding: 15PX;
-        font-size: 10PX;
+        font-size: 13px;
     }
 
     .contact-button {
