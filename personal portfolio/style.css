@@ -1675,14 +1675,13 @@ nav li:first-child {
         display: flex;
         margin: 0;
         width: 100%;
-        height: 100vh;
+        height: 400px;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
 
     .about-head {
-        color: white;
         margin-left: 0px;
         padding-top: 0px;
         font-size: 30px;
@@ -1698,7 +1697,6 @@ nav li:first-child {
         margin-top: 10px;
         margin-bottom: 0px;
         align-items: center;
-        color: wheat;
         font-size: 10px;
         height: 80PX;
     }
@@ -1812,6 +1810,7 @@ nav li:first-child {
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: fit-content;
     }
 
     .aboutcontainer p {
@@ -1853,7 +1852,9 @@ nav li:first-child {
 
     #skills {
         display: block;
-
+    }
+    .skillcontainer{
+        height: fit-content;
     }
 
 
@@ -2031,7 +2032,7 @@ nav li:first-child {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 800px;
+        height: fit-content;
 
     }
 
@@ -2054,6 +2055,7 @@ nav li:first-child {
 
         font-size: 10px;
         margin: 0;
+        height: 30px;
 
 
     }
@@ -2078,6 +2080,7 @@ nav li:first-child {
         justify-content: center;
         align-items: center;
         margin: 10px;
+        margin: 0;
     }
 
     .right-contact {
@@ -2149,28 +2152,4 @@ nav li:first-child {
     .icon-gmail {
         margin: 0;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
