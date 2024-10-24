@@ -99,6 +99,7 @@ nav li:first-child {
     align-items: center;
     height: 92vh;
 
+
 }
 
 /*---mobile-image-----*/
@@ -120,15 +121,7 @@ nav li:first-child {
 }
 
 /*---heading---*/
-.name-h2 {
- 
-    
 
-}
-
-.name-h2 span {
-
-}
 
 /*-----------about-image-container----------*/
 
@@ -956,7 +949,7 @@ nav li:first-child {
 
     .Front-end {
         margin: 0;
-        height: 200px;
+        height: fit-content;
         align-items: center;
     }
 
@@ -969,7 +962,7 @@ nav li:first-child {
 
     .back-end {
         margin: 0;
-        height: 200px;
+        height: fit-content;
         align-items: center;
     }
 
@@ -980,14 +973,14 @@ nav li:first-child {
 
     .Front-end img {
 
-        height: 80px;
-        width: 80px;
+        height: 120px;
+        width:120px;
     }
 
     .back-end img {
 
-        height: 80px;
-        width: 80px;
+        height: 120px;
+        width: 120px;
 
     }
 
@@ -1463,6 +1456,7 @@ nav li:first-child {
     .bi4 {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
         width: 80px;
@@ -1841,7 +1835,7 @@ nav li:first-child {
         width: 90vh;
         margin: 0px 20px;
         font-size: 18px;
-        line-height: 19px;
+        line-height: 25px;
     }
 
     .aboutheading {
@@ -1911,7 +1905,7 @@ nav li:first-child {
         align-items: center;
         height: 30px;
         width: 100%;
-        font-size: 8px;
+        font-size: 10px;
         padding: 2px;
         margin-top: 0px;
     }
@@ -1983,7 +1977,7 @@ nav li:first-child {
 
     .back-end p {
         font-size: 10px;
-        margin-top: 5px;
+
     }
 
     .bi1 {
@@ -1993,7 +1987,7 @@ nav li:first-child {
         text-align: center;
         justify-content: center;
         font-size: 8px;
-        width: 80px;
+        width: fit-content;
         height: fit-content;
     }
 
@@ -2003,22 +1997,11 @@ nav li:first-child {
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 80px;
+        width: fit-content;
         height: fit-content;
         font-size: 8px;
     }
 
-    .bi3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 80px;
-        height: fit-content;
-        font-size: 8px;
-
-    }
 
     .bi4 {
         display: flex;
@@ -2026,9 +2009,10 @@ nav li:first-child {
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 80px;
+        width: fit-content;
         height: fit-content;
         font-size: 8px;
+        margin-top: 35px;
     }
 
     /* ----------------------contact-------------------------- */
