@@ -1834,8 +1834,8 @@ nav li:first-child {
         height: fit-content;
         width: 90vh;
         margin: 0px 20px;
-        font-size: 16px;
-        line-height: 25px;
+        font-size: 15px;
+        line-height: 23px;
     }
 
     .aboutheading {
